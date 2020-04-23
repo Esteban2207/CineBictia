@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="" />
+		<link rel="stylesheet" href="/contacstyle.css"/>
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -13,6 +13,43 @@
 			crossorigin="anonymous"
 		/>
 	</head>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+				}
+			
+			body{
+				background-color: #2D4059;
+			}
+			
+			.container{
+				color: #EEEEEE;
+
+			}
+			.button{
+				background-color:#FF5722;
+				border-radius:10px;
+				border: 2px solid #FF5722;
+				padding: 10px;
+				color: #EEEEEE;
+				
+			}
+
+            .button1{
+				background-color:#00ADB5;
+				border-radius:10px;
+				border: 2px solid #00ADB5;
+				color: #EEEEEE; 
+				padding: 10px;
+				
+			}
+	
+
+	
+	
+		</style>
+
 	<body>
 		<header class="header">
 			<input type="checkbox" id="btnMenu" class="btnMenu" />
@@ -51,9 +88,65 @@
 					</li>
 				</ul>
 			</nav>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perspiciatis. Ad repellendus in a adipisci minima molestias praesentium consectetur? Debitis, magni adipisci sed quia aliquam a porro atque quisquam eaque!</p>
+		</header>
+		<div class="container">
+			<div class="row justify-contend- center mt-5 pt-5"> 
+				<div class="col-md-7">
+					<h1 class="display-4">Formulario</h1>
+					<hr class="bg-info">
+			
+		<form>
 
+            <div class="row form-group">
+						<label for="Nombre " class="col-form-label col-md-4">Nombre:</label>
+					<div class="col-md-8">
+							<input type="text"  name="nombre" value="" id="Nombre" class="form-control"required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<label for="Apellidos" class="col-form-label col-md-4">Apellidos:</label>
+						<div class="col-md-8">
+								<input type="text"  name="Apellidos" value="" id="Apellidos" class="form-control"required>
+						</div>
+					</div>
+						    
+                         
+					<div class="row form-group">
+					<label for="Email" class="col-form-label col-md-4"> Email: </label>
+					<div class="col-md-8">
+                    <input type="email" class="form-control" id="Email" name="Email" required>
+                </div>
+            </div>
+        
+          
+            <div class="row form-group">
+								<label for="validarMotivo" class="col-form-label col-md-4">Motivos:</label>
+								<div class="col-md-8">
+							  <select class="custom-select" id="validarTema" name="validarTema" required>
+                        <option selected disabled value="">El cine es magia</option>
+                        <option value="Ver una pelicula en el cine es inimitable">Ver una pelicula de cine es inimitable</option>
+                        <option value="Los comentarios post film">Los comentarios post film</option>
+                        <option value="Relaja y reduce el estres">Relaja y reduce el estres</option>
+                        <option value="Proporciona cultura general">Proporciona cultura general</option>
+                    </select>
+                </div>
+            </div>
+        
+           
+        
+            <div class=" row form-group">
+			<label for="sugerencias"  class="col-form-label col-md-4">Sugerencias:</label>
+				<div class="col-md-8">
+                <textarea rows "3" class="form-control" id="Mensaje" name="Mensaje"  required></textarea>
+            </div>
+                 
+                <button  type="button" class="button" >Enviar</button>
+                <button type="button1" class="button1" >limpiar</button>
+            </div>
+		</div>
+	</div>
+ </div>
+        </form>
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
