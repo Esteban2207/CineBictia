@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #00adb5 !important;
+}
+
+/* COMIENZA LA PAGINA PROXIMOS ESTRENOS */
+.contTitle1 {
+	padding-top: 10px;
+}
+
+.contTitle1 h1 {
+	margin-left: 30%;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 60px;
+}
+
+.contTitle1 p {
+	margin-left: 26%;
+	color: #2d4059;
+}
+
+.rowH h1 {
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+hr {
+	background-color: white;
+}
+
+/* TARGETAS */
+.rowPCards {
+	background-color: white;
+	color: #2d4059;
+}
+
+.rowCards2 {
+	background-color: #2d4059;
+	color: white;
+}
+
+.Card2 {
+	padding-bottom: 10px;
+}
+.boton1 {
+	padding-bottom: 5px;
+}
+.boton1 a {
+	background-color: rgb(73, 71, 71);
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	transition: all 0.4s ease-in-out;
+}
+.boton1 a:hover {
+	background-color: rgb(56, 54, 54);
+	transform: scale(1.1);
+	transition: all 0.4s ease-in-out;
+}
+
+.boton2 a {
+	background-color: #ff5722;
+	border: none;
+	font-family: 'Times New Roman', Times, serif;
+	transition: all 0.4s ease-in-out;
+}
+.boton2 a:hover {
+	background-color: #db4a1e;
+	transform: scale(1.1);
+	transition: all 0.4s ease-in-out;
+}
+
+/* DISEÑO*/
+.contenedor {
+	padding-top: 85px;
+}
+.progress {
+	background-color: #00adb5 !important ;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.contenedor2 {
+	padding-top: 30px;
+}
+.color2 {
+	background-color: #ff5722 !important;
+}
+.color {
+	background-color: indigo !important;
+}
+
+@media (max-width: 768px) {
+	/* MENU */
+	header {
+		position: fixed;
+		height: 50px;
+	}
+	header label {
+		display: block;
+	}
+
+	.contmenu {
+		position: absolute;
+		background-color: #170337;
+		margin-left: -50%;
+		transition: all 0.5s;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	.contmenu ul {
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.btnMenu:checked ~ .contmenu {
+		margin: 0;
+	}
+
+	.imgMenu {
+		display: none;
+	}
+
+	.logo {
+		position: absolute;
+		top: 0px;
+		left: 80%;
+		width: 40px;
+	}
+	.contmenu li:hover {
+		background: #2d4059;
+	}
+
+	.iconos1 {
+		background-color: #00adb5;
+		border-top-right-radius: 10px;
+		transition: all 0.4s ease-in-out;
+	}
+	.iconos1:hover {
+		background-color: #038d94;
+		transform: scale(1.1);
+		transition: all 0.4s ease-in-out;
+		border-bottom-right-radius: 10px;
+	}
+	.iconos2 {
+		background-color: rgb(87, 11, 122);
+		transition: all 0.4s ease-in-out;
+	}
+	.iconos2:hover {
+		background-color: rgb(69, 9, 97);
+		transform: scale(1.1);
+		transition: all 0.4s ease-in-out;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.iconos3 {
+		background-color: rgb(202, 135, 9);
+		transition: all 0.4s ease-in-out;
+	}
+	.iconos3:hover {
+		background-color: rgb(173, 117, 13);
+		transform: scale(1.1);
+		transition: all 0.4s ease-in-out;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.iconos4 {
+		background-color: rgb(192, 19, 19);
+		transition: all 0.4s ease-in-out;
+	}
+	.iconos4:hover {
+		background-color: rgb(168, 18, 18);
+		transform: scale(1.1);
+		transition: all 0.4s ease-in-out;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.iconos5 {
+		background-color: rgb(17, 99, 17);
+		border-bottom-right-radius: 10px;
+		transition: all 0.4s ease-in-out;
+	}
+	.iconos5:hover {
+		background-color: rgb(15, 82, 15);
+		transform: scale(1.1);
+		transition: all 0.4s ease-in-out;
+		border-top-right-radius: 10px;
+	}
+	/* DISEÑO*/
+	.contenedor {
+		padding-top: 50px;
+	}
+
+	/* TITULOS */
+	.contTitle1 h1 {
+		margin: 20%;
+		font-size: 50px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.contTitle1 p {
+		display: none;
+	}
+	.rowH h1 {
+		font-size: 30px;
+		padding-bottom: 0;
+		margin-left: 15px;
+	}
+
+	.card {
+		width: 16rem !important;
+		margin-bottom: 10px !important;
+	}
+
+	.CCards {
+		margin-left: 15% !important;
+	}
+
+	hr {
+		margin-right: 75px !important;
+	}
+}
