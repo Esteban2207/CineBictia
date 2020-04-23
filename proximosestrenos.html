@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>PRÓXIMOS ESTRENOS</title>
 		<link rel="stylesheet" href="./style/proximosestrenos.css" />
 		<link
 			rel="stylesheet"
@@ -13,6 +13,46 @@
 		/>
 	</head>
 	<body>
+
+		<header class="header">
+			<input type="checkbox" id="btnMenu" class="btnMenu" />
+			<label for="btnMenu"><img src="./pics/imgMenu/boton.png" alt="" /></label>
+	
+			<div class="logo">
+				<a href=""><img class="logo" src="" alt="" /></a>
+			</div>
+			<nav class="contmenu">
+				<ul>
+					<li>
+						<a href="./index.html" class="iconos1"
+							>Home <img src="./pics/imgMenu/MENUHOME4.png" alt="" class="imgMenu"
+						/></a>
+					</li>
+					<li>
+						<a href="./cartelera.html" class="iconos2"
+							>Cartalera <img src="./pics/imgMenu/MENUCARTELERA2.png" alt="" class="imgMenu"
+						/></a>
+					</li>
+					<li>
+						<a href="./proximosestrenos.html class="iconos3"
+							>Proximos Estrenos
+							<img src="./pics/imgMenu/menuEstrenos1.png" alt="" class="imgMenu"
+						/></a>
+					</li>
+					<li>
+						<a href="" class="iconos4"
+							>Cofitería <img src="./pics/imgMenu/MENUCOFITERIA2.png" alt="" class="imgMenu"
+						/></a>
+					</li>
+					<li>
+						<a href="" class="iconos5"
+							>Contáctenos <img src="./pics/imgMenu/MENUCONTACTO2.png" alt="" class="imgMenu"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	
 		<!-- DISEÑO-->
 		<div class="contenedor">
 			<div class="progress progress1">
@@ -69,7 +109,7 @@
 		<!-- COMIENZA LA PAGINA DE PROXIMOS ESTRENOS -->
 		<div class="contTitle1">
 			<h1>¡Proximos Estrenos!</h1>
-			<p>
+			<p class="descrip">
 				Películas que se estrenan próximamente en cines con más búsquedas en
 				Cine Bictia
 			</p>
@@ -328,6 +368,33 @@
 				></div>
 			</div>
 		</div>
+	
+		<footer>
+			<div class="row footer">
+				<div class="col-md-4 maps">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8443816152644!2d-74.0677944851318!3d4.621838296642494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a37c6adedc1d243!2sBICTIA!5e0!3m2!1ses!2sco!4v1587564160685!5m2!1ses!2sco"
+						width="70%" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+						tabindex="0"></iframe>
+				</div>
+				<div class="col-md-4 col-sm-12 infoCont">
+					<h3 class="footerTitle">CINE-BICTIA</h3>
+					<small>Información de desarrolladores:</small>
+					<a href="#" class="btnDev">CONTACTO</a>
+				</div>
+				<div class="col-md-4 col-sm-12 contIcons">
+					<div>
+						<p class="footerContact">Contáctanos a través de nuestras redes:</p>
+					</div>
+					<div class="icons">
+						<a href="#" class="icon1"><img src="./pics/icons/facebook.png" alt=""></a>
+						<a href="#" class="icon2"><img src="./pics/icons/instagram.png" alt=""></a>
+						<a href="#" class="icon3"><img src="./pics/icons/whatsapp.png" alt=""></a>
+					</div>
+				</div>
+		
+			</div>
+		</footer>
 
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
