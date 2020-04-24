@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+	background-color: #00adb5 !important;
+}
+
+.contenedor {
+	padding-top: 85px;
+}
+.progress {
+	background-color: #00adb5 !important ;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.contenedor2 {
+	padding-top: 30px;
+}
+.color2 {
+	background-color: #ff5722 !important;
+}
+.color {
+	background-color: indigo !important;
+}
+
+
+.contenedor {
+		padding-top: 50px;
+	}
+
