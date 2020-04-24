@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/homeStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" id="btnMenu" class="btnMenu" />
+      <label for="btnMenu"><img src="./pics/imgMenu/boton.png" alt="" /></label>
+
+      <div class="logo">
+        <a href=""><img class="logo" src="" alt="" /></a>
+      </div>
+      <nav class="contmenu">
+        <ul>
+          <li>
+            <a href="./home.html" class="iconos1"
+              >Home
+              <img src="./pics/imgMenu/MENUHOME4.png" alt="" class="imgMenu"
+            /></a>
+          </li>
+          <li>
+            <a href="./catelera.html" class="iconos2"
+              >Cartelera
+              <img
+                src="./pics/imgMenu/MENUCARTELERA2.png"
+                alt=""
+                class="imgMenu"
+            /></a>
+          </li>
+          <li>
+            <a href="" class="iconos3"
+              >Proximos Estrenos
+              <img
+                src="./pics/imgMenu/menuEstrenos1.png"
+                alt=""
+                class="imgMenu"
+            /></a>
+          </li>
+          <li>
+            <a href="" class="iconos4"
+              >Cofitería
+              <img
+                src="./pics/imgMenu/MENUCOFITERIA2.png"
+                alt=""
+                class="imgMenu"
+            /></a>
+          </li>
+          <li>
+            <a href="" class="iconos5"
+              >Contáctenos
+              <img
+                src="./pics/imgMenu/MENUCONTACTO2.png"
+                alt=""
+                class="imgMenu"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+	</header>
+	
+		<!---------------------- Primer Slider -------------------->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner d-md-block d-none">
+          <div class="carousel-item active hoverCarousel">
+            <img
+              src="./pics/starwars.jpg"
+              class="d-block w-100 imgCarru"
+              alt="Una foto de StarWars"
+            />
+          </div>
+          <div class="carousel-item hoverCarousel" data-interval="3000">
+            <img
+              src="./pics/Joker.jpg"
+              class="d-block w-100 imgCarru"
+              alt="Una foto de Joker"
+            />
+          </div>
+          <div class="carousel-item hoverCarousel" data-interval="3000">
+            <img
+              src="./pics/RapidosFuriosos.jpg"
+              class="d-block w-100 imgCarru"
+              alt="Una foto de Rapidos Y Furiosos"
+            />
+          </div>
+          <div class="carousel-item hoverCarousel" data-interval="3000">
+            <img
+              src="./pics/HarryPotter1.jpg"
+              class="d-block w-100 imgCarru"
+              alt="Una foto de Harry Potter"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleInterval"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleInterval"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+	  </div>
+	  <div>
+		  <h2 class="titlePel">
+			  Peliculas
+		  </h2>
+	  </div>
+	   <!-- ----------Aqui empieza el segundo slider carrusel----------------------- -->
+	   <div class="container-fluid p-0 d-md-block d-none">
+		<div class="row">
+		  <div class="col">
+			<div
+			  id="carouselExampleInterval-2"
+			  class="carousel slide"
+			  data-ride="carousel"
+			>
+			  <div class="carousel-inner">
+				<div class="carousel-item active" data-interval="3000">
+				  <div class="container-fluid">
+					<div class="row p-5">
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/aquaman.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content bg-dark">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula mt-4">
+											Aquaman
+										  </h4>
+										  <h5 class="titleRef mt-5">
+											Año
+										  </h5>
+										  <p class="sontSinop">
+											2018
+										  </p>
+										  <h5 class="titleRef">
+											Genero
+										  </h5>
+										  <p class="sontSinop">
+											Aventura , Acción, Fantasía
+										  </p>
+										  
+										  <h5 class="titleRef mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop">
+											Tras los acontecimientos de la Liga de la Justicia , Arthur Curry ,
+											 el renuente gobernante del reino submarino de Atlántida , se ve atrapado en una batalla
+											  entre habitantes de la superficie que amenazan a sus océanos y su propia gente, que están
+											   dispuestos a atacar e invadir la superficie.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/eli.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/eli.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											El Libro de Eli
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="sontSinop text-primary">
+											2010
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Suspenso, Acción, Thriller, Western, Ciencia Ficción, Aventura , Drama
+										  </p>
+										  
+										  <h5 class="titleRef text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Eli (Denzel Washington) es uno de los supervivientes del Apocalipsis, también conocido como "resplandor", que ha destruido casi por completo la raza humana. Aún quedan unos pocos seres humanos que sobreviven como pueden. No hay resto alguno de la sociedad civilizada anterior al cataclismo. Ahora la ley del más fuerte se ha impuesto por completo; canibalismo, violaciones y violencia extrema son la norma en las calles de las pocas ciudades en las que habita gente. Pero Eli tiene algo que lo diferencia de los demás.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/endgame.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Fantasia
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/endgame.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Avengers: Endgame
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="sontSinop text-primary">
+											2019
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											live action, Superhéroes, Fantasía, Ciencia Ficción, Acción, Marvel Comics
+										  </p>
+										  
+										  <h5 class="titleRef text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Tras la culminación de 22 películas interconectadas, la cuarta entrega de la saga de Vengadores atraerá a las audiencias a presenciar el punto de inflexión de este viaje épico. Nuestros queridos héroes entenderán realmente cuán frágil es esta realidad y los sacrificios que deben hacerse para defenderla. Después de ser derrotados por Thanos la última vez y de que este último efectuara su plan de eliminar a la mitad del universo, Los Vengadores ahora trataran de buscar la forma de como enfrentarse nuevamente al titán y buscar como remediar el daño ocasionado por el chasquido del Guantelete del Infinito, siendo esta la gran batalla que decidirá el destino del universo entero.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/Dollitle.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Aventura
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/Dollitle.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Dolittle
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2020
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Comedia, Aventura , Fantasía, Familiar
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Robert Downey Jr. da vida a uno de los personajes más perdurables de la literatura en una vívida reinvención del clásico cuento del hombre que podía hablar con los animales: Dolittle. Después de perder a su esposa siete años antes, el excéntrico Dr. John Dolittle (Downey), famoso médico y veterinario de la Inglaterra de la Reina Victoria, se refugia detrás de los altos muros de Dolittle Manor con su colección de animales exóticos como única compañía.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="carousel-item" data-interval="3000">
+				  <div class="container-fluid">
+					<div class="row p-5">
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/opPanda.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Animada
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/PaMuerte.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Comedia
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/terremoto.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/guardians.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Misterio
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <div class="container-fluid">
+					<div class="row p-5">
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/volando.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Drama
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/waves.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Romance
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/matilda.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Clasica
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-3">
+						<div
+						  class="card text-white bg-secondary cardstyle"
+						  style="width: 18rem;"
+						>
+						  <img
+							src="./pics/cards/eter.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Misterio
+							</h5>
+						  </div>
+  
+						  <div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-toggle="modal"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+  
+							<div
+							  class="modal fade bd-example-modal-xl"
+							  tabindex="-1"
+							  role="dialog"
+							  aria-labelledby="myExtraLargeModalLabel"
+							  aria-hidden="true"
+							>
+							  <div class="modal-dialog modal-xl" role="document">
+								<div class="modal-content">
+								  <div class="container-fluid">
+									<div class="row">
+									  <div class="col-4">
+										<img
+										  src="./pics/cards/aquaman.jpg"
+										  alt=""
+										/>
+									  </div>
+									  <d
+										class="col-8 d-flex justify-content-start align-items-start"
+									  >
+									  <div class="row">
+										<div class="col-12 contSino">
+										  <h4 class="titTitlePelicula text-primary mt-4">
+											Nombre Pelicula
+										  </h4>
+										  <h5 class="titleRef text-primary mt-5">
+											Año
+										  </h5>
+										  <p class="añoP text-primary">
+											2012
+										  </p>
+										  <h5 class="titleRef text-primary">
+											Genero
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Genero de la Pelicula
+										  </p>
+										  
+										  <h5 class="titleSinop text-primary mt-4">
+											Sinopsis
+										  </h5>
+										  <p class="sontSinop text-primary">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur 
+											unde ipsa voluptate minima iure consectetur cumque ea quis deserunt officia illum obcaecati
+											 esse dolorum laboriosam earum laudantium, ad at.
+										  </p>
+										  <div class="contBottones">
+										  <a class="bottonesGP" href="#">General</a>
+										  <a class="bottonesGP" href="#">Preferencial</a>
+										</div>
+										</div>
+										
+									  </div>
+										
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+  
+							<!-- <a href="#" class="Comprar">General</a>
+							<a href="#" class="Comprar">Preferencial</a> -->
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <a
+				class="carousel-control-prev"
+				href="#carouselExampleInterval-2"
+				role="button"
+				data-slide="prev"
+			  >
+				<span
+				  class="carousel-control-prev-icon"
+				  aria-hidden="true"
+				></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a
+				class="carousel-control-next"
+				href="#carouselExampleInterval-2"
+				role="button"
+				data-slide="next"
+			  >
+				<span
+				  class="carousel-control-next-icon"
+				  aria-hidden="true"
+				></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  	<!-- -----------------Aqui empieza la cartelera --------------------------->
+	  <div class="container-fluid d-md-none d-block">
+		<div class="row">
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/aquaman.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>					
+			</div>
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/eli.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/endgame.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/Dollitle.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/opPanda.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/PaMuerte.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem;">
+						<img
+							src="./pics/cards/terremoto.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div
+					class="card text-white bg-secondary mt-4 cardstyle"
+					style="width: 18rem">
+						<img
+							src="./pics/cards/guardians.jpg"
+							class="card-img-top imgaqu"
+							alt="..."
+						  />
+						  <div class="card-body">
+							<h5 class="card-title d-flex justify-content-center">
+							  Accion
+							</h5>
+						  </div>
+  
+						<div class="card-body d-flex justify-content-center">
+							<button
+							  type="button"
+							  class="btn extraLa"
+							  data-target=".bd-example-modal-xl"
+							>
+							  Ver Mas
+							</button>
+						</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <div>
+		<h3 class="titleProximosE">
+			Proximos Estrenos
+		</h3>
+	</div>
+	 <!-- --------------------Proximos Estrenos --------------------->
+	 <div class="container d-md-block d-none mt-5">
+		<div class="row">
+			<div class="col-4">
+			  <div class="card" style="width: 18rem;">
+				  <img src="./pics/cards/proximosEstrenos/abu.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 15 Abril 2021.</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-4">
+			  <div class="card" style="width: 18rem;">
+				  <img src="./pics/cards/proximosEstrenos/judi.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 20 Junio 2021.</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-4">
+			  <div class="card" style="width: 18rem;">
+				  <img src="./pics/cards/proximosEstrenos/under.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 4 Mayo 2021.</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- --------------------Proximos Estrenos responsive--------------------->
+	<div class="container-fluid d-md-none d-block mt-5">
+		<div class="row">
+			<div class="col-4">
+			  <div class="card cardResponsive" style="width: 12rem;">
+				  <img src="./pics/cards/proximosEstrenos/ProximosE_Responsive/Adu.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 15 Abril 2021.</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-4">
+			  <div class="card cardResponsive" style="width: 12rem;">
+				  <img src="./pics/cards/proximosEstrenos/ProximosE_Responsive/judi1.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 20 Junio 2021.</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-4">
+			  <div class="card cardResponsive" style="width: 12rem;">
+				  <img src="./pics/cards/proximosEstrenos/ProximosE_Responsive/under1.jpg" class="card-img-top" alt="...">
+				  <div class="card-body d-flex justify-content-center">
+					<p class="card-text">Estrena 4 Mayo 2021.</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-------------------- decoraciones ------------------->
+		<div class="progress progress1 d-flex flex-row-reverse">
+			<div
+				class="progress-bar progress-bar-striped color2"
+				role="progressbar"
+				style="width: 10%;"
+				aria-valuenow="10"
+				aria-valuemin="0"
+				aria-valuemax="90"
+			></div>
+		</div>
+		<div class="progress progress1 d-flex flex-row-reverse">
+			<div
+				class="progress-bar progress-bar-striped bg-success"
+				role="progressbar"
+				style="width: 25%;"
+				aria-valuenow="25"
+				aria-valuemin="0"
+				aria-valuemax="100"
+			></div>
+		</div>
+		<div class="progress progress1 d-flex flex-row-reverse">
+			<div
+				class="progress-bar progress-bar-striped color"
+				role="progressbar"
+				style="width: 50%;"
+				aria-valuenow="50"
+				aria-valuemin="0"
+				aria-valuemax="100"
+			></div>
+		</div>
+		<div class="progress progress1 d-flex flex-row-reverse">
+			<div
+				class="progress-bar progress-bar-striped bg-warning"
+				role="progressbar"
+				style="width: 75%;"
+				aria-valuenow="75"
+				aria-valuemin="0"
+				aria-valuemax="100"
+			></div>
+		</div>
+		<div class="progress progress1 d-flex flex-row-reverse">
+			<div
+				class="progress-bar progress-bar-striped bg-danger"
+				role="progressbar"
+				style="width: 100%;"
+				aria-valuenow="100"
+				aria-valuemin="0"
+				aria-valuemax="100"
+			></div>
+		</div>
+	</div>
+	<!---------------- Empieza el Footer ---------------->
+    <footer>
+      <div class="row footer">
+        <div class="col-md-4 maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8443816152644!2d-74.0677944851318!3d4.621838296642494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a37c6adedc1d243!2sBICTIA!5e0!3m2!1ses!2sco!4v1587564160685!5m2!1ses!2sco"
+            width="70%"
+            height="150"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="col-md-4 col-sm-12 infoCont">
+          <h3 class="footerTitle">CINE-BICTIA</h3>
+          <small>Información de desarrolladores:</small>
+          <a href="#" class="btnDev">DESARROLLADORES</a>
+        </div>
+        <div class="col-md-4 col-sm-12 contIcons">
+          <div>
+            <p class="footerContact">Contáctanos a través de nuestras redes:</p>
+          </div>
+          <div class="icons">
+            <a href="#" class="icon1"
+              ><img src="./pics/icons/facebook.png" alt=""
+            /></a>
+            <a href="#" class="icon2"
+              ><img src="./pics/icons/instagram.png" alt=""
+            /></a>
+            <a href="#" class="icon3"
+              ><img src="./pics/icons/whatsapp.png" alt=""
+            /></a>
+          </div>
+        </div>
+	  </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
